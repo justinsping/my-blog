@@ -27,10 +27,10 @@
       <div class="article-box">
         <h2 class="title">
           最新散文
-          <span>诗酒趁年华</span>
+          <span class="clearfix">诗酒趁年华</span>
         </h2>
         <ul>
-          <li v-for="item in articleData" :key="item.id">
+          <li v-for="item in articleData" :key="item.id" class="clearfix">
             <a href="#" class="pic">
               <img src="../images/swiper/1.jpg" />
             </a>
@@ -48,12 +48,12 @@
       <div class="tech-article-box">
         <h2 class="title">
           最新技术干货
-          <span>学无止境</span>
+          <span class="clearfix">学无止境</span>
         </h2>
         <ul>
           <li v-for="item in articleData" :key="item.id">
             <h2>{{item.title}}</h2>
-            <a href="#" class="pic">
+            <a href="#" class="pic clearfix">
               <img src="../images/swiper/1.jpg" />
             </a>
             <p class="blogtext">{{item.content}}</p>
@@ -213,13 +213,11 @@ export default {
     display: inline-block;
     width: 80%;
     .pic-show {
-      // height: 500px;
       padding: 10px;
       .swiper-box {
         display: inline-block;
         vertical-align: top;
         width: 70%;
-        // height: 500px;
         .swiper-container {
           width: 100%;
           height: 400px;

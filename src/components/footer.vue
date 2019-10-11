@@ -25,7 +25,6 @@ export default {
   background: #373D41;
   border-top: 10px solid #00c1de;
   position: absolute;
-  bottom: 0;
   left: 0;
   right: 0;
   .container {

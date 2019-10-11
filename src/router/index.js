@@ -23,9 +23,9 @@ export default new Router({
       component: () => import('../views/guestbook')
     },
     {
-      path: '/sitemap',
-      name: 'sitemap',
-      component: () => import('../views/sitemap')
+      path: '/anime',
+      name: 'anime',
+      component: () => import('../views/anime')
     }
   ]
 })

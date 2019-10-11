@@ -9,7 +9,10 @@
           <router-link to="/">首页</router-link>
         </li>
         <li>
-          <router-link to="/sitemap">动漫</router-link>
+          <router-link to="/anime">国漫</router-link>
+        </li>
+        <li>
+          <router-link to="/guestbook">搭配</router-link>
         </li>
         <li>
           <router-link to="/about">关于我</router-link>
