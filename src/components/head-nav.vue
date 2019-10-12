@@ -2,7 +2,7 @@
   <div id="head-nav">
     <div class="container">
       <h1 class="logo">
-        <a href="/"></a>
+        <a href="javascript:;"></a>
       </h1>
       <ul class="menu">
         <li>
@@ -12,7 +12,7 @@
           <router-link to="/anime">国漫</router-link>
         </li>
         <li>
-          <router-link to="/guestbook">搭配</router-link>
+          <router-link to="/store">花见巫女</router-link>
         </li>
         <li>
           <router-link to="/about">关于我</router-link>
@@ -46,6 +46,7 @@ export default {}
     width: 1170px;
     height: 80px;
     margin: 0 auto;
+    overflow: hidden;
     .logo {
       float: left;
       a {

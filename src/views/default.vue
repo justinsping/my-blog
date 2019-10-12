@@ -218,6 +218,7 @@ export default {
         display: inline-block;
         vertical-align: top;
         width: 70%;
+        cursor: url('../images/cursor/cursor_8.png'), pointer;
         .swiper-container {
           width: 100%;
           height: 400px;
@@ -225,6 +226,19 @@ export default {
           img {
             width: 100%;
             height: 100%;
+          }
+          .swiper-pagination-progressbar {
+            height: 2px;
+          }
+          .swiper-button-prev, .swiper-button-next {
+            background-size: 16px 30px;
+            display: none;
+            // transition: all .5s ease;
+          }
+        }
+        .swiper-container:hover {
+          .swiper-button-prev, .swiper-button-next {
+            display: block;
           }
         }
       }

@@ -18,9 +18,9 @@ export default new Router({
       component: () => import('../views/about')
     },
     {
-      path: '/guestbook',
-      name: 'guestbook',
-      component: () => import('../views/guestbook')
+      path: '/store',
+      name: 'store',
+      component: () => import('../views/store')
     },
     {
       path: '/anime',
