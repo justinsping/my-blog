@@ -15,7 +15,7 @@
           <router-link to="/store">花见巫女</router-link>
         </li>
         <li>
-          <router-link to="/about">关于我</router-link>
+          <router-link to="/aboutMe">关于我</router-link>
         </li>
         <li>
           <router-link to="/guestbook">留言</router-link>
@@ -30,7 +30,8 @@
   </div>
 </template>
 <script>
-export default {}
+export default {
+}
 </script>
 <style lang="scss">
 #head-nav {
