@@ -1,10 +1,11 @@
 <template>
   <div id="guest-book">
-    留言区
+    暂未开通
   </div>
 </template>
 <script>
 export default {
-
 }
 </script>
+<style lang="scss">
+</style>

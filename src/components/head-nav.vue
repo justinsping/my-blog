@@ -18,7 +18,8 @@
           <router-link to="/aboutMe">关于我</router-link>
         </li>
         <li>
-          <router-link to="/guestbook">留言</router-link>
+          <!-- <router-link to="/guestbook">留言板</router-link> -->
+          <a href="javascript:;" @click="guestbook">留言板</a>
         </li>
       </ul>
       <div class="search_bar">
@@ -31,6 +32,14 @@
 </template>
 <script>
 export default {
+  methods: {
+    guestbook () {
+      this.$message({
+        type: 'warning',
+        message: '暂未开通'
+      })
+    }
+  }
 }
 </script>
 <style lang="scss">
