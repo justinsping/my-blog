@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import defaultPage from '../views/default'
 import homePage from '../layout/homePage'
+import login from '../layout/login'
 
 Vue.use(Router)
 
@@ -10,6 +11,11 @@ export default new Router({
   routes: [
     {
       path: '/',
+      name: 'login',
+      component: login
+    },
+    {
+      path: '/homepage',
       name: 'homePage',
       component: homePage,
       redirect: '/default',

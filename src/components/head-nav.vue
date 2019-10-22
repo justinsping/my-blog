@@ -6,7 +6,7 @@
       </h1>
       <ul class="menu">
         <li>
-          <router-link to="/">首页</router-link>
+          <router-link to="/homepage">首页</router-link>
         </li>
         <li>
           <router-link to="/anime">国漫</router-link>
