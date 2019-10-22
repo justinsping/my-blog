@@ -39,6 +39,11 @@ export default new Router({
           path: '/guestbook',
           name: 'guestbook',
           component: () => import('../views/guestbook')
+        },
+        {
+          path: '/editBlog',
+          name: 'editBlog',
+          component: () => import('../views/editBlog')
         }
       ]
     },

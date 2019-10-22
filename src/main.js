@@ -17,10 +17,17 @@ import VueVideoPlayer from 'vue-video-player'
 import 'video.js/dist/video-js.css'
 // import 'vue-video-player/src/custom-theme.css'
 
+// 编辑器
+import VueQuillEditor from 'vue-quill-editor'
+import 'quill/dist/quill.core.css'
+import 'quill/dist/quill.snow.css'
+import 'quill/dist/quill.bubble.css'
+
 // md5
 import md5 from 'js-md5'
 Vue.prototype.$md5 = md5
 
+Vue.use(VueQuillEditor)
 Vue.use(VueVideoPlayer)
 Vue.use(VueAwesomeSwiper)
 Vue.use(ElementUI)

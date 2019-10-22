@@ -90,10 +90,8 @@ export default {
         return false
       }
       api.userLogin({
-        params: {
-          username: self.ruleForm.username,
-          password: this.$md5(self.ruleForm.pass)
-        }
+        username: self.ruleForm.username,
+        password: this.$md5(self.ruleForm.pass)
       }).then(res => {
         alert('已发送')
       })

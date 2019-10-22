@@ -21,6 +21,9 @@
           <!-- <router-link to="/guestbook">留言板</router-link> -->
           <a href="javascript:;" @click="guestbook">留言板</a>
         </li>
+        <li>
+          <router-link to="/editBlog">博客编辑</router-link>
+        </li>
       </ul>
       <div class="search_bar">
         <i class="el-icon-search"></i>
